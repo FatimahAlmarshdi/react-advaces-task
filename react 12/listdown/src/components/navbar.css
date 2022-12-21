@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.nav{background-color: rgb(10, 21, 31);
+display: flex;
+color: antiquewhite;
+justify-content: space-between;
+align-items: center;
+gap: 2erm;
+padding: 0 1rem;
+height: 10px;
+
+}
+
+.nav a{
+    color: initial;
+    text-decoration: none;
+}
+ul{
+padding: 0;
+margin: 0;
+list-style: block;
+display: flex;
+
+
+justify-content: space-between;
+}
+.site-title{
+    font-size: 2erm;
+}
+ ul li{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    justify-content: space-between;
+    color: rgb(136, 72, 72);
+    }
